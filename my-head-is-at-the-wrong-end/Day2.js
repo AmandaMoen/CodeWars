@@ -8,6 +8,7 @@
 
 /* My head is at the wrong end!*/
 
+/* Best Practices Solution */
 function fixTheMeerkat(arr) {
- //your code here 
+  return arr.reverse();
 }
