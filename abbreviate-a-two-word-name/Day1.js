@@ -8,11 +8,15 @@
 
 // Patrick Feeney => P.F
 
-// FUNDAMENTALS	STRINGS	ARRAYS
+// FUNDAMENTALS		STRINGS		ARRAYS
 
-/*Abbreviate a Two Word Name*/
+/* Best practices Solution */
 function abbrevName(name){
 
-    // code away
+  var nameArray = name.split(" ");
+  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+}
 
+function abbrevName(name){
+  return name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.');
 }
