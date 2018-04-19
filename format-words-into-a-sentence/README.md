@@ -7,3 +7,4 @@ formatWords(['ninja', '', 'ronin']) // should return "ninja and ronin"
 formatWords([]) // should return ""
 ALGORITHMS		UTILITIES		FORMATTING		STRINGS
 
+https://www.codewars.com/kata/format-words-into-a-sentence/train/javascript
