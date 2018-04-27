@@ -17,3 +17,5 @@
 function checkExam(array1, array2) {
  // good luck
 }
+
+// https://www.codewars.com/kata/check-the-exam/train/javascript
